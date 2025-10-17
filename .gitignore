@@ -1,0 +1,91 @@
+# ==========================
+# Kotlin / Gradle / Compose
+# ==========================
+
+# Gradle build output
+/build/
+/out/
+/bin/
+/classes/
+/target/
+/segments
+
+# Gradle local data
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# OS / Editor noise
+.DS_Store
+Thumbs.db
+*.orig
+*~
+
+# Kotlin / Java compiled output
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.tgz
+
+# Compose preview cache
+*.preview.cache/
+
+# Android specific
+/local.properties
+/captures/
+/release/
+/debug/
+/generated/
+/outputs/
+/intermediates/
+/signing/
+*.apk
+*.ap_          # prebuilt APK packages
+*.aab
+*.dex
+*.class
+*.so
+*.keystore
+*.jks
+*.hprof
+
+# NDK / CMake
+.externalNativeBuild/
+.cxx/
+
+# Logs
+*.log
+
+# OS temp / build
+*.tmp
+*.temp
+tmp/
+temp/
+
+# JetBrains Compose artifacts
+*.kotlin_module
+compose-compiler.log
+
+# ===================================
+# Optional: include these to be safe
+# ===================================
+
+# Personal Gradle settings
+gradle-app.setting
+gradle.properties.local
+gradle-local.properties
+
+# User-specific settings
+*.local.*
+*.user.*
